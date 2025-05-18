@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'VRCX Guidebook',
+  title: 'VRCX指南',
   // tagline: 'Dinosaurs are cool',
   // favicon: 'img/favicon.ico',
 
@@ -32,19 +32,18 @@ const config: Config = {
     defaultLocale: 'zh-CN',
     locales: ['zh-CN', 'en'],
     localeConfigs: {
+      'zh-CN': {
+        label: '中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+        calendar: 'gregory',
+      },
       en: {
         label: 'English',
         direction: 'ltr',
         htmlLang: 'en-US',
         calendar: 'gregory',
         path: 'en',
-      },
-      'zh-CN': {
-        label: '中文',
-        direction: 'ltr',
-        htmlLang: 'zh-CN',
-        calendar: 'gregory',
-        path: 'zh-CN',
       },
     },
   },
@@ -87,7 +86,7 @@ const config: Config = {
     // Replace with your project's social card
     // image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'VRCX Guide',
+      title: 'VRCX指南',
       // logo: {
       //   alt: 'My Site Logo',
       //   src: 'img/logo.svg',
