@@ -16,14 +16,6 @@ jobs:
       - uses: oven-sh/setup-bun@v2
       - name: Install Dependencies
         run: bun install
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: bun
-          package-manager: bun
-
-      - name: Install dependencies
-        run: bun install --frozen-lockfile
       - name: Build website
         run: bun build
 
