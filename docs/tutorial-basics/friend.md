@@ -1,10 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Create a Document
+# 好友管理
 
-Documents are **groups of pages** connected through:
+<!-- Documents are **groups of pages** connected through:
 
 - a **sidebar**
 - **previous/next navigation**
@@ -54,4 +54,4 @@ export default {
     },
   ],
 };
-```
+``` -->
